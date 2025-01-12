@@ -1,0 +1,45 @@
+/* General styles for the body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Mode Styles */
+.light {
+  background-color: #E9F6F7; /* Soft light turquoise for light mode */
+  color: #333; /* Dark text for readability */
+}
+
+/* Dark Mode Styles */
+.dark {
+  background-color: #1F1B2E; /* Deep purple with a rich tone for dark mode */
+  color: #F4F4F9; /* Very light gray text */
+}
+
+/* Button Styling */
+.mode-button {
+  background-color: #FF6F61; /* Soft coral color for the button */
+  color: white;
+  font-size: 18px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mode-button:hover {
+  background-color: #FF3D36; /* Darker coral on hover */
+  transform: translateY(-3px); /* Slight lift effect on hover */
+}
+
+.mode-button:focus {
+  outline: none;
+}
